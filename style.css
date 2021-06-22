@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: black;
+    border: 1px solid greenyellow;
+    width: 100%;
+    height:10px;
+}
+body{
+    min-height:1000px;
+}
+.banner{
+    height: 100vh;
+   background-image: url(asset/img/img5.jpg);
+   background-size: cover;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.content{
+    text-align: center;
+}
+.banner h2{
+    font-weight:100;
+    font-size: 4em;
+    color:black; 
+}
+.banner p{
+    font-size: 50x;
+    color:white;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 5px;
+    color:black;
+    background-color:rgb(236, 65, 65);
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration:none;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    margin-top: 20px;  
+}
+.btn:hover{
+    letter-spacing: 4px;
+}
+.header{
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+    align-items: center;
+    transition: 0.5s;
+    width: 100%;
+}
+.header h5{
+    font-size: 100px;
+    color:white;
+}
+.header li{
+    display:inline-block;
+    color:white;
+    font-size: 20px;
+}
+.header li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px 5px;
+    margin-left: 10px;
+   
+}
+.header li a:hover{
+    background-color: wheat;
+}
+.main{
+    width:100%;
+    height:300px;
+    position: relative;
+    background-color:palegreen;
+    margin-top: 20px;
+    
+}
+.about{
+  width: 50%;
+  height: 300px;
+  position: absolute;
+  
+   
+}
+.about h5{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+    .about p{
+margin-left: 20px;
+    }
+.about span{
+     color: rgb(175, 55, 75);
+    }  
+.imgcontain{
+    width:40%;
+    height: 300px;
+    position:absolute;
+    left: 800px;
+
+}
+.imgcontain img{
+    width:300px;
+    height:280px;
+    padding-top: 10px;
+    
+}
+.menumain{
+    width:100%;
+    height:700px;   
+    background-color: skyblue;
+}
+.menuheader{
+    margin:20px;
+}
+.menuheader h5{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.menuheader p{
+    line-height: 20px;
+}
+.menulist{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    transition: 0.5s;
+}
+.fastfoodlist{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    transition: 0.5s;
+}
+#pic{
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 10px 1px 20px rgba(255, 255, 255, 0.829);
+}
+.menuheader span{
+    color: rgb(175, 55, 75);
+}
+.expert{
+    width:100%;
+    background-color: sandybrown;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.headerex h5{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.headerex{
+    margin: 10px 10px;
+}
+.headerex span{
+    color: rgb(175, 55, 75);
+}
+.expertimg{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.expertimg img{
+    width:250px;
+    height:250px;
+}
+#chefid{
+padding :10px 10px;
+
+}
+.testimonial{
+    width:100%;
+    height:550px;
+    margin-top:20px;
+    margin-bottom:20px;
+    position: relative;
+    background-color: teal;
+}
+.headertesti h5{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.headertesti span{
+    color: rgb(175, 55, 75);
+}
+.testiimg{
+    width:100%;
+    height:450px;
+    position: relative;
+    background-color: rgb(177, 185, 185);
+}
+.testim1 img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.testim2 img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.testim3 img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.testim1{
+    width:500px;
+    height: 300px;
+    position: absolute;
+    margin-left: 15px;
+}
+.testim2{
+
+    width:350px;
+    position: absolute;
+    left:500px;
+    height: 300px;
+    margin-left: 20px;
+
+}
+.testim3{
+    width:500px;
+    position: absolute;
+    left:900px;
+}
+.con{
+    width:100%;
+    height:500px;
+    background-image: url(asset/img/bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conheader h5{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.conheader span{
+    color: rgb(175, 55, 75);
+}
+.mainform{
+    width: 30%;
+    height:400px;
+    box-shadow: 10px 10px 1px 20px white;
+    margin-left: 100px;
+    padding-left: 20px;
+    background-color:peru;
+}
+.inputbox{
+    margin-bottom: 20px;
+}
+.inputbox input{
+    padding :5px 5px;
+    font-size:16px;
+    border:1px solid #555;
+    font-weight: 300;
+}
+.form h5{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-top: 20px;  
+}
+.inputbox input[type="submit"]{
+    font-size: 20px;
+    color: white;
+    background-color:brown;
+    transition: .3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.inputbox input[type="submit"]:hover{
+    background-color:coral;
+
+}
+
+
+
+
+
